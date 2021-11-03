@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "i am here for you",
+        "Hello, sir",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "city",
+      "patterns": ["Delhi", "delhi", "new delhi"],
+      "responses": [
+        "API integration sucessfull"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "feelings",
+      "patterns": [
+        "How are you feeling today?",
+        "how's your day today?"
+        
+      ],
+      "responses": [
+        "Thanks for asking,I am good",
+        "I always feel good. i am trying to spread positivity"
+      ]
+    },
+    {
+      "tag": "convo",
+      "patterns": [
+        "what are you?",
+        "who are you?",
+        "are you bot or human?"
+      ],
+      "responses": [
+        "I am a COVID-19 info bot",
+        "i am a covid-19 bot here to inform",
+        "I am samantha a COVID-19 bot"
+      ]
+    },
+    {
+      "tag": "virus information",
+      "patterns": [
+        "what is covid?",
+        "what is covid-19?",
+        "what is pandemic?",
+        "tell me about covid-19"
+      ],
+      "responses": [
+        "COVID-19 is a new strain of coronavirus which took form of pandemic due to its highly infectious nature",
+        "The COVID-19 is the respiratory illness first detected in Wuhan, Hubei province, China.",
+        "COVID or novel corona virus caused pandemic which first discover in wuhan china,2019",
+        "covid-19 is a current pandemic which caused millions of deaths in past two years"
+      ]
+    },
+   {
+      "tag": "virus symptoms",
+      "patterns": [
+        "what are the symptoms?",
+        "how to know I am infected?",
+        "how to identify covid infected person?",
+        "Am i infected?"
+      ],
+      "responses": [
+        "It differ person to person but doctors have seen few common symptoms like cough, fever and lost of smell/taste",
+        "If a person have fever and lost of smell and taste for more than a week",
+        "Lost of smell/taste is a major symptoms"
+      ]
+    },
+   {
+      "tag": "precautions",
+      "patterns": [
+        "How to protect?",
+        "what are the measure we can take to protect?",
+        "how to stay safe?",
+        "saftey??"
+      ],
+      "responses": [
+        "There are ways to protect use of sanitiers, masks and maintaining physical distances are major.",
+        "Use face mask and sanitizer, stay at home if not imporant",
+        "Follow the WHO saftey measures.",
+        "Don't go out and stay at home if not needed. use mask if you go outside"
+      ]
+    },
+   {
+      "tag": "TEST",
+      "patterns": [
+        "when I need a test?",
+        "what are the tests for covid?",
+        "covid test"
+      ],
+      "responses": [
+        "if feeling sick get test done, There are two type of test for covid 1. RTPCR and 2. RAT",
+        "If someone feel they are infected they should get covid test. RTPCR or RAT"
+      ]
+    },
+   {
+      "tag": "Already infected",
+      "patterns": [
+        "what to do if I am infected?",
+        "Help, I caught covid?",
+        "what if someone caught covid?",
+        "How to treat covid?"
+      ],
+      "responses": [
+        "If someone get infected consult doctor ASAP!",
+        "Take doctor consultation and take rest at home",
+        "Don't panic, consult doctor eat healthy food and take rest.",
+        "see doctor and get your RTPCR test check"
+      ]
+    },
+   {
+      "tag": "virus vaccine",
+      "patterns": [
+        "covid vaccine",
+        "Tell me about vaccine",
+        "type of vaccine"
+      ],
+      "responses": [
+
+        "Sorry, this information is yet to be updated"
+      ]
+    }    
+  ]
+}
